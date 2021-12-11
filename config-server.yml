@@ -1,10 +1,8 @@
 eureka:
   client:
-    register-with-eureka:
-      value: true
-    fetch-registry:
-      value: true;
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
-      defaultZone: http://159.223.85.227:8761/eureka
+      defaultZone: http://eureka:8761/eureka
     instance:
       hostname: 159.223.85.227
